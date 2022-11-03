@@ -151,6 +151,8 @@ while not finished:
         screen.blit(f.render(f"Ваше время прохождения: {time}, c", True, WHITE), (screen_x / 4, screen_y / 3 - 40))
         pygame.display.update()
 ''' Наконец, добавляем и сохраняем результат в файле '''
+if len(name) == 0:
+    name = "unknown user"
 dict_records[name] = time
 with open('records.txt', 'a') as file:
     for key, value in dict_records.items():
