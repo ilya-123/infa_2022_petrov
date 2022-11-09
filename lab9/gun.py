@@ -18,7 +18,6 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREY = (120, 120, 120)
 GAME_COLORS = [RED, BLUE, YELLOW, GREEN, MAGENTA, CYAN]
-g = 9.81
 
 f = pygame.font.Font(None, 24)
 WIDTH = 800
